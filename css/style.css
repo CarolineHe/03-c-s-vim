@@ -1,0 +1,49 @@
+h1{
+  color:green;
+  font-style: oblique;
+  opacity:1;
+  font-family:fantasy;
+  text-decoration:underline;
+  font-size: 4em;
+  text-align: center;
+}
+
+header {
+  border:1.5em;
+  border-radius: 1.5em;
+  border-color: grey;
+  border-style:ridge;
+  margin: 2em;
+  background-attachment:local;
+  background-image: url("/home/carolineh/cheat-sheets/03-c-s-vim/images.jpeg");
+  background-repeat:repeat-x;
+  background-size: 20%;
+}
+
+section {
+  font-size: 1em;
+  background-color: grey;
+  border: 0.2em solid green;
+  border-radius: 0.5em;
+  color: black;
+  font-family: Arial;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-left: 0.5em;
+  padding: 0.5em;
+  text-align: left;
+}
+
+h2{
+  color:green;
+  font-style: oblique;
+  opacity:1;
+  font-family:fantasy;
+  text-decoration:underline;
+  font-size: 3em;
+  text-align: center;
+}
+
+body {
+  background-color: black;
+}
