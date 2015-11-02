@@ -1,11 +1,3 @@
-h1{
-  color:#FAFAFA;
-  font-style: oblique;
-  font-family:fantasy;
-  font-size: 4em;
-  text-align: center;
-  opacity:0;
-}
 
 header {
   border:1.5em;
@@ -14,9 +6,10 @@ header {
   border-style:ridge;
   margin: 2em;
   background-attachment:local;
-  background-image: url("/home/carolineh/cheat-sheets/03-c-s-vim/images.jpeg");
+  background-image: url("/home/carolineh/sites/lab/cheat-sheets/03-c-s-vim/images.jpeg");
   background-repeat:repeat-x;
   background-size: 20%;
+  height:10em;
 }
 
 section {
