@@ -6,7 +6,7 @@ header {
   border-style:ridge;
   margin: 2em;
   background-attachment:local;
-  background-image: url("/home/carolineh/sites/lab/cheat-sheets/03-c-s-vim/images.jpeg");
+  background-image: url("images.jpeg");
   background-repeat:repeat-x;
   background-size: 20%;
   height:10em;
