@@ -1,18 +1,19 @@
+body {
+  background-color: black;
+}
 
 header {
-  /*background-attachment:local;*/
-  background-color:red;
-  /*background-image: url(img/images.jpeg);*/
-  /*background-repeat:repeat-x;
+  background-attachment:local;
+  background-image: url(img/images.jpeg);
+  background-repeat:repeat-x;
   background-size: 20%;
   border:1.5em;
   border-radius: 1.5em;
   border-color: grey;
   border-style:ridge;
   margin: 2em;
-  height:10em;*/
+  height:10em;
 }
-
 section {
   font-size: 1em;
   background-color: grey;
@@ -37,9 +38,6 @@ h2{
   text-align: center;
 }
 
-body {
-  background-color: black;
-}
 
 p {
   text-align: center;
