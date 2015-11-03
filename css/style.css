@@ -13,7 +13,7 @@ header {
   border-color: grey;
   border-style:ridge;
   margin: 2em;
-  height:10em;
+  /*height:10em;*/
 }
 section {
   font-size: 1em;
