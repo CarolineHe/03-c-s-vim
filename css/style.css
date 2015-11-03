@@ -1,14 +1,14 @@
 
 header {
+  /*background-attachment:local;*/
+  background-image: url("images.jpeg");
+  background-repeat:repeat-x;
+  background-size: 20%;
   border:1.5em;
   border-radius: 1.5em;
   border-color: grey;
   border-style:ridge;
   margin: 2em;
-  background-attachment:local;
-  background-image: url("images.jpeg");
-  background-repeat:repeat-x;
-  background-size: 20%;
   height:10em;
 }
 
