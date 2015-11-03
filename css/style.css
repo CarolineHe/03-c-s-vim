@@ -1,19 +1,18 @@
-/*body {
+body {
   background-color: black;
-}*/
+}
 
 header {
-  /*background-attachment:local;*/
-  background-image: url(img/brouette.png);
-  /*background-repeat:repeat-x;
-  /*background-color: red;*/
+  background-image: url(../img/images.jpeg);
+  background-attachment:local;
+  background-repeat:repeat-x;
   /*background-size: 20%;*/
-  /*border:1.5em;
+  border:20px;
   border-radius: 1.5em;
   border-color: grey;
   border-style:ridge;
-  margin: 2em;*/
-  /*height:10em;*/
+  margin: 20px;
+  height:200px;
 }
 section {
   font-size: 1em;
