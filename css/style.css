@@ -1,3 +1,4 @@
+
 body {
   background-color: black;
 }
@@ -6,9 +7,8 @@ header {
   background-image: url(../img/images.jpeg);
   background-attachment:local;
   background-repeat:repeat-x;
-  /*background-size: 20%;*/
   border:20px;
-  border-radius: 1.5em;
+  border-radius: 20px;
   border-color: grey;
   border-style:ridge;
   margin: 20px;
@@ -38,11 +38,60 @@ h2{
   text-align: center;
 }
 
-
 p {
   text-align: center;
 }
 
 a{
   color:green;
+}
+
+@media (max-width:1024px){
+  body {
+    background-color: black;
+  }
+
+  header {
+    background-image: url(../img/images.jpeg);
+    background-attachment:local;
+    background-repeat:repeat-x;
+    border:20px;
+    border-radius: 1.5em;
+    border-color: grey;
+    border-style:ridge;
+    margin: 20px;
+    height:200px;
+  }
+  section {
+    font-size: 1em;
+    background-color: grey;
+    border: 0.2em solid green;
+    border-radius: 0.5em;
+    color: black;
+    font-family: Arial;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 0.5em;
+    padding: 0.5em;
+    text-align: left;
+  }
+
+  h2{
+    color:green;
+    font-style: oblique;
+    opacity:1;
+    font-family:fantasy;
+    text-decoration:underline;
+    font-size: 3em;
+    text-align: center;
+  }
+
+
+  p {
+    text-align: center;
+  }
+
+  a{
+    color:green;
+  }
 }
