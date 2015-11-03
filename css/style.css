@@ -53,14 +53,13 @@ a{
 
   header {
     background-image: url(../img/images.jpeg);
-    background-attachment:local;
-    background-repeat:repeat-x;
-    border:20px;
-    border-radius: 1.5em;
+    background-repeat:no-repeat;
+    border:5px;
+    border-radius: 5px;
     border-color: grey;
     border-style:ridge;
-    margin: 20px;
-    height:200px;
+    margin: 5px;
+    height:50px;
   }
   section {
     font-size: 1em;
@@ -82,7 +81,7 @@ a{
     opacity:1;
     font-family:fantasy;
     text-decoration:underline;
-    font-size: 3em;
+    font-size: 1em;
     text-align: center;
   }
 
