@@ -3,10 +3,10 @@ body {
 }
 
 header {
-  /*background-attachment:local;
+  /*background-attachment:local;*/
   background-image: url(img/images.jpeg);
-  background-repeat:repeat-x;*/
-  background-color: red;
+  background-repeat:repeat-x;
+  /*background-color: red;*/
   background-size: 20%;
   border:1.5em;
   border-radius: 1.5em;
