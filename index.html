@@ -1,100 +1,105 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=yes"/>
+    <!--mobiles devices!-->
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
+    <link rel="icon" href="favicon.ico" />
     <title>Commandes Vim</title>
-  </head>
-  <body id="haut">
+</head>
+
+<body id="haut">
     <header>
-      <h1> </h1>
+        <h1> </h1>
     </header>
     <h2>Commandes Vim - Editeur de texte</h2>
     <section>
-      Déplacement curseur :
-      <ul>
-        <li>h : vers la gauche</li>
-        <li>k : vers le haut</li>
-        <li>l : vers la droite</li>
-        <li>j : vers le bas</li>
-      </ul>
+        Déplacement curseur :
+        <ul>
+            <li>h : vers la gauche</li>
+            <li>k : vers le haut</li>
+            <li>l : vers la droite</li>
+            <li>j : vers le bas</li>
+        </ul>
 
-    3 modes :
-      <ul>
-        <li>Commande</li>
-        <li>Insertion</li>
-        <li>Normal</li>
-      </ul>
-      echap : pour revenir en mode normal
+        3 modes :
+        <ul>
+            <li>Commande</li>
+            <li>Insertion</li>
+            <li>Normal</li>
+        </ul>
+        echap : pour revenir en mode normal
 
-      <ul>
-        <li>:q ! : permet de sortir de vim (sans enregistrer les modifications)</li>
-        <li>  :wq : permet d'enregistrer un fichier et de sortir</li>
-        <li>  i : permet d'incruster du texte avant le curseur</li>
-        <li>  A : permet d'ajouter du texte après le curseur</li>
-    </ul>
+        <ul>
+            <li>:q ! : permet de sortir de vim (sans enregistrer les modifications)</li>
+            <li> :wq : permet d'enregistrer un fichier et de sortir</li>
+            <li> i : permet d'incruster du texte avant le curseur</li>
+            <li> A : permet d'ajouter du texte après le curseur</li>
+        </ul>
 
-      <ul>
-        <li>  o : permet d'ouvrir une ligne sous le curseur et passer en mode insertion</li>
-        <li>  O : permet d'ouvrir une ligne au-dessus du curseur et passer en mode insertion</li>
-        <li>a : permet d'insérer du texte après le curseur</li>
-        <li>  x : permet d'effacer le caractère sous le curseur</li>
-        <li>  dw : permet d'effacer un mot complet en se plaçant sur sa première lettre</li>
-        <li>  d$ : permet d'effacer une ligne complète de l'endroit où l'on se positionne jusqu’à la fin de la ligne</li>
-        <li>  dd : permet d'effacer une ligne (et p pour la replacer ailleurs après le curseur)</li>
-        <li>  dNw : permet d'effacer N mots à partir du curseur</li>
-        <li>  Ndd : permet d'effacer N lignes à partir du curseur</li>
-        <li>  ce : permet d'effacer le mot à la suite du curseur et de passer en mode insertion pour changer la fin du mot</li>
-        <li>  r suivi d'un lettre : permet de remplacer un caractère par la lettre sous le curseur</li>
-        <li>  R : permet de remplacer plus d'un caractère</li>
-      </ul>
+        <ul>
+            <li> o : permet d'ouvrir une ligne sous le curseur et passer en mode insertion</li>
+            <li> O : permet d'ouvrir une ligne au-dessus du curseur et passer en mode insertion</li>
+            <li>a : permet d'insérer du texte après le curseur</li>
+            <li> x : permet d'effacer le caractère sous le curseur</li>
+            <li> dw : permet d'effacer un mot complet en se plaçant sur sa première lettre</li>
+            <li> d$ : permet d'effacer une ligne complète de l'endroit où l'on se positionne jusqu’à la fin de la ligne</li>
+            <li> dd : permet d'effacer une ligne (et p pour la replacer ailleurs après le curseur)</li>
+            <li> dNw : permet d'effacer N mots à partir du curseur</li>
+            <li> Ndd : permet d'effacer N lignes à partir du curseur</li>
+            <li> ce : permet d'effacer le mot à la suite du curseur et de passer en mode insertion pour changer la fin du mot</li>
+            <li> r suivi d'un lettre : permet de remplacer un caractère par la lettre sous le curseur</li>
+            <li> R : permet de remplacer plus d'un caractère</li>
+        </ul>
 
-    <ul>
-      <li>  e : permet de se déplacer de mot en mot</li>
-      <li>  Nw : déplace de N mot vers l'avant</li>
-      <li>  Ne : déplace le curseur à la fin du N mot vers l'avant</li>
-      <li>  NG : permet d'aller à la ligne N directement</li>
-      <li>  G : permet de se déplacer à la fin du fichier</li>
-      <li>  gg : permet de se déplacer au début du fichier</li>
-      <li>  0 : permet de se déplacer au début de la ligne</li>
-      <li>  cNw : permet de se déplacer de N mots à partir du curseur</li>
-      <li>  j$ : permet de déplacer le curseur à la fin de la ligne suivante</li>
-    </ul>
+        <ul>
+            <li> e : permet de se déplacer de mot en mot</li>
+            <li> Nw : déplace de N mot vers l'avant</li>
+            <li> Ne : déplace le curseur à la fin du N mot vers l'avant</li>
+            <li> NG : permet d'aller à la ligne N directement</li>
+            <li> G : permet de se déplacer à la fin du fichier</li>
+            <li> gg : permet de se déplacer au début du fichier</li>
+            <li> 0 : permet de se déplacer au début de la ligne</li>
+            <li> cNw : permet de se déplacer de N mots à partir du curseur</li>
+            <li> j$ : permet de déplacer le curseur à la fin de la ligne suivante</li>
+        </ul>
 
-  <ul>
-    <li>  y : permet de copier du texte</li>
-    <li>  p : permet de le coller</li>
-  </ul>
+        <ul>
+            <li> y : permet de copier du texte</li>
+            <li> p : permet de le coller</li>
+        </ul>
 
-  <ul>
-    <li>  u : permet d'annuler la dernière modification</li>
-    <li>  U : permet de récupérer toute une ligne</li>
-    <li>  ctrl R : permet de revenir en arrière</li>
-    <li>  ctrl G : permet d'afficher la position dans le fichier et son état</li>
-    <li>  / suivi d'un fichier pour rechercher le fichier</li>
-  </ul>
+        <ul>
+            <li> u : permet d'annuler la dernière modification</li>
+            <li> U : permet de récupérer toute une ligne</li>
+            <li> ctrl R : permet de revenir en arrière</li>
+            <li> ctrl G : permet d'afficher la position dans le fichier et son état</li>
+            <li> / suivi d'un fichier pour rechercher le fichier</li>
+        </ul>
 
-  <ul>
-    <li>  :! suivi de la commande externe : permer d'exécuter une commande externe</li>
-    <li>  :! ls : permet de sortir</li>
-    <li>  :! dir</li>
-  </ul>
+        <ul>
+            <li> :! suivi de la commande externe : permer d'exécuter une commande externe</li>
+            <li> :! ls : permet de sortir</li>
+            <li> :! dir</li>
+        </ul>
 
-  <ul>
-    <li>  :w suivi du nom du fichier : permet d'enregistrer les changements faits au texte</li>
-    <li>  :! rm suivi du nom du fichier : permet d'effacer le fichier</li>
-  </ul>
+        <ul>
+            <li> :w suivi du nom du fichier : permet d'enregistrer les changements faits au texte</li>
+            <li> :! rm suivi du nom du fichier : permet d'effacer le fichier</li>
+        </ul>
 
-  <ul>
-    <li>  : help ou F1 : permet d'obtenir de l'aide (ouvre le texte dans la fenêtre)</li>
-    <li>  ctrl w : permet de passer d'une fenêtre à l'autre</li>
-    <li>  :q : permet de sortir</li>
-  </ul>
-</section>
-<footer>
-  <p><a href="#haut">Retour haut de page</a>
-  </p>
-</footer>
-  </body>
+        <ul>
+            <li> : help ou F1 : permet d'obtenir de l'aide (ouvre le texte dans la fenêtre)</li>
+            <li> ctrl w : permet de passer d'une fenêtre à l'autre</li>
+            <li> :q : permet de sortir</li>
+        </ul>
+    </section>
+    <footer>
+        <p><a href="#haut">Retour haut de page</a>
+        </p>
+    </footer>
+</body>
+
 </html>

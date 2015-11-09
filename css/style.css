@@ -1,97 +1,131 @@
+/*/////////////////////////////screen between 100px-599px////////////////////////*/
 
-body {
-  background-color: black;
+@media screen and (min-width: 100px) and (max-width: 599px) {
+    body {
+        background-color: black;
+    }
+    header {
+        background-image: url(../img/images.jpeg);
+        background-repeat: no-repeat;
+        border: 5px;
+        border-radius: 5px;
+        border-color: grey;
+        border-style: ridge;
+        margin: 5px;
+        height: 200px;
+    }
+    h2 {
+        color: green;
+        font-style: oblique;
+        opacity: 1;
+        font-family: fantasy;
+        text-decoration: underline;
+        font-size: 1em;
+        text-align: center;
+    }
+    section {
+        font-size: 1em;
+        text-align: left;
+        line-height: 20px;
+        background-color: grey;
+        border: 10px solid green;
+        border-radius: 10px;
+        color: black;
+        font-family: Arial;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 10px;
+        /*padding-left: -20px;*/
+    }
+    p {
+        text-align: center;
+    }
+    a {
+        color: green;
+    }
 }
 
-header {
-  background-image: url(../img/images.jpeg);
-  background-attachment:local;
-  background-repeat:repeat-x;
-  border:20px;
-  border-radius: 20px;
-  border-color: grey;
-  border-style:ridge;
-  margin: 20px;
-  height:200px;
+/*/////////////////////////////screen between 600px-1023px////////////////////////*/
+
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+    body {
+        background-color: black;
+    }
+    header {
+        background-image: url(../img/images.jpeg);
+        background-repeat: repeat-x;
+        border: 5px;
+        border-radius: 5px;
+        border-color: grey;
+        border-style: ridge;
+        margin: auto;
+        height: 200px;
+    }
+    h2 {
+        color: green;
+        font-style: oblique;
+        opacity: 1;
+        font-family: fantasy;
+        text-decoration: underline;
+        font-size: 1em;
+        text-align: center;
+    }
+    section {
+        font-size: 1em;
+        text-align: left;
+        line-height: 20px;
+        background-color: grey;
+        border: 10px solid green;
+        border-radius: 10px;
+        color: black;
+        font-family: Arial;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 10px;
+        /*padding-left: -20px;*/
+    }
+    p {
+        text-align: center;
+    }
+    a {
+        color: green;
+    }
 }
-section {
-  font-size: 1em;
-  background-color: grey;
-  border: 0.2em solid green;
-  border-radius: 0.5em;
-  color: black;
-  font-family: Arial;
-  margin-left: 200px;
-  margin-right: 200px;
-  padding-left: 0.5em;
-  padding: 0.5em;
-  text-align: left;
-}
 
-h2{
-  color:green;
-  font-style: oblique;
-  opacity:1;
-  font-family:fantasy;
-  text-decoration:underline;
-  font-size: 3em;
-  text-align: center;
-}
+/*/////////////////////////////screen between 1024px-1500px////////////////////////*/
 
-p {
-  text-align: center;
-}
-
-a{
-  color:green;
-}
-
-@media (max-width:1024px){
-  body {
-    background-color: black;
-  }
-
-  header {
-    background-image: url(../img/images.jpeg);
-    background-repeat:no-repeat;
-    border:5px;
-    border-radius: 5px;
-    border-color: grey;
-    border-style:ridge;
-    margin: 5px;
-    height:200px;
-  }
-  section {
-    font-size: 1em;
-    text-align: left;
-    line-height: 20px;
-    background-color: grey;
-    border:10px solid green;
-    border-radius: 15px;
-    color: black;
-    font-family: Arial;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 10px;
-    /*padding-left: -20px;*/
-        }
-
-  h2{
-    color:green;
-    font-style: oblique;
-    opacity:1;
-    font-family:fantasy;
-    text-decoration:underline;
-    font-size: 1em;
-    text-align: center;
-  }
-
-  p {
-    text-align: center;
-  }
-
-  a{
-    color:green;
-  }
-
+@media screen and (min-width: 1024px) and (max-width: 1500px) {
+    body {
+        background-color: black;
+    }
+    header {
+        background-image: url(../img/images.jpeg);
+        background-attachment: local;
+        background-repeat: repeat-x;
+        border: 20px;
+        border-radius: 20px;
+        border-color: grey;
+        border-style: ridge;
+        margin: 20px;
+        height: 200px;
+    }
+    section {
+        font-size: 1em;
+        background-color: grey;
+        border: 0.2em solid green;
+        border-radius: 0.5em;
+        color: black;
+        font-family: Arial;
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-left: 0.5em;
+        padding: 0.5em;
+        text-align: left;
+    }
+    p {
+        text-align: center;
+    }
+    a {
+        color: green;
+    }
 }
