@@ -1,6 +1,6 @@
 /*/////////////////////////////screen between 100px-599px////////////////////////*/
 
-@media screen and (min-width: 100px) and (max-width: 599px) {
+@media screen and (min-width: 100px) and (max-width: 549px) {
     body {
         background-color: black;
     }
@@ -14,7 +14,8 @@
         margin: 5px;
         height: 200px;
     }
-    h2 {
+
+    h1 {
         color: green;
         font-style: oblique;
         opacity: 1;
@@ -23,7 +24,8 @@
         font-size: 1em;
         text-align: center;
     }
-    section {
+
+    div {
         font-size: 1em;
         text-align: left;
         line-height: 20px;
@@ -37,9 +39,11 @@
         padding: 10px;
         /*padding-left: -20px;*/
     }
+
     p {
         text-align: center;
     }
+
     a {
         color: green;
     }
@@ -47,10 +51,11 @@
 
 /*/////////////////////////////screen between 600px-1023px////////////////////////*/
 
-@media screen and (min-width: 600px) and (max-width: 1023px) {
+@media screen and (min-width: 550px) and (max-width: 1023px) {
     body {
         background-color: black;
     }
+
     header {
         background-image: url(../img/images.jpeg);
         background-repeat: repeat-x;
@@ -61,7 +66,8 @@
         margin: auto;
         height: 200px;
     }
-    h2 {
+
+    h1 {
         color: green;
         font-style: oblique;
         opacity: 1;
@@ -70,7 +76,8 @@
         font-size: 1em;
         text-align: center;
     }
-    section {
+
+    div {
         font-size: 1em;
         text-align: left;
         line-height: 20px;
@@ -84,9 +91,11 @@
         padding: 10px;
         /*padding-left: -20px;*/
     }
+
     p {
         text-align: center;
     }
+
     a {
         color: green;
     }
@@ -98,6 +107,7 @@
     body {
         background-color: black;
     }
+
     header {
         background-image: url(../img/images.jpeg);
         background-attachment: local;
@@ -109,7 +119,8 @@
         margin: 20px;
         height: 200px;
     }
-    section {
+
+    div {
         font-size: 1em;
         background-color: grey;
         border: 0.2em solid green;
@@ -122,10 +133,13 @@
         padding: 0.5em;
         text-align: left;
     }
+
     p {
         text-align: center;
     }
+
     a {
         color: green;
     }
+
 }
